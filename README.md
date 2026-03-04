@@ -1,3 +1,65 @@
+<div align="center">
+
+# 🔥 AIFireHome - AI Side Hustle Assistant
+
+> Find the right side hustle for you with AI, generate a 7-day launch plan in one click
+
+[![Live Demo](https://img.shields.io/badge/🚀_Live_Demo-Click_Here-blue)](https://aifirehome.netlify.app)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub Stars](https://img.shields.io/github/stars/AIPMAndy/AIFireHome?style=social)](https://github.com/AIPMAndy/AIFireHome)
+
+[English](#english) | [简体中文](#中文)
+
+</div>
+
+---
+
+<a name="english"></a>
+
+## 🎯 What is this?
+
+Many people want to start a side hustle, but don't know:
+- What am I suited for?
+- Where do I start?
+- What are the risks?
+
+AIFireHome uses AI to solve these three questions.
+
+## ✨ Core Features
+
+| Feature | Description |
+|---------|-------------|
+| 🎯 **Personalized Matching** | AI analyzes your skills, time, and capital to recommend suitable opportunities |
+| 📋 **7-Day Launch Plan** | One-click generation of actionable launch plan with daily tasks |
+| ⚠️ **Risk Assessment** | Know the pitfalls before you start |
+| 💡 **Resource Recommendations** | Tools, courses, communities to help you get started |
+
+## 🚀 Quick Start
+
+**Online Experience:** [https://aifirehome.netlify.app](https://aifirehome.netlify.app)
+
+**Local Development:**
+```bash
+git clone https://github.com/AIPMAndy/AIFireHome.git
+cd AIFireHome
+npm install
+npm run dev
+```
+
+## 🤝 Author
+
+**Andy | AI Product Expert**
+
+- 🚀 Ex-Tencent / Ex-Baidu AI Product Lead
+- 🦄 LLM Unicorn VP → Startup CEO
+- 🎯 AI Business Strategy Consultant
+
+**WeChat:** AIPMAndy | **GitHub:** [@AIPMAndy](https://github.com/AIPMAndy)
+
+---
+
+<a name="中文"></a>
+
 # 🔥 AIFireHome - AI 副业助手
 
 > 用 AI 帮你找到适合自己的副业方向，7天启动计划一键生成
@@ -18,60 +80,66 @@ AIFireHome 用 AI 帮你解决这三个问题。
 
 | 功能 | 说明 |
 |------|------|
-| 🔍 技能挖掘 | AI 分析你的背景，发现被忽视的变现技能 |
-| 📊 副业匹配 | 基于你的时间、资源、风险偏好推荐副业方向 |
-| 📅 7天启动计划 | 一键生成可执行的启动计划，不再拖延 |
-| ⚠️ 风险评估 | 提前识别坑点，避免踩雷 |
+| 🎯 **个性化匹配** | AI 分析你的技能、时间、资金，推荐适合的方向 |
+| 📋 **7天启动计划** | 一键生成可执行的启动计划，每天该做什么 |
+| ⚠️ **风险评估** | 先知道坑在哪，再决定要不要跳 |
+| 💡 **资源推荐** | 工具、课程、社群，帮你快速起步 |
 
-## 🚀 立即体验
+## 🚀 快速开始
 
-👉 **[点击访问在线版](https://aifirehome.netlify.app)**
+**在线体验：** [https://aifirehome.netlify.app](https://aifirehome.netlify.app)
 
-或本地运行：
+**本地开发：**
 ```bash
 git clone https://github.com/AIPMAndy/AIFireHome.git
 cd AIFireHome
-npm install && npm run dev
+npm install
+npm run dev
 ```
 
-## 📸 效果展示
+## 技术栈
 
-<!-- TODO: 添加产品截图 -->
+- **前端**：Vue 3 + Vite
+- **样式**：TailwindCSS
+- **AI**：OpenAI API / 国产大模型
+- **部署**：Netlify
 
-## 关于作者
+## 项目结构
+
+```
+AIFireHome/
+├── src/
+│   ├── components/     # Vue 组件
+│   ├── views/          # 页面
+│   ├── api/            # AI 接口
+│   └── utils/          # 工具函数
+├── public/
+└── package.json
+```
+
+## Roadmap
+
+- [x] 基础问答流程
+- [x] 7天计划生成
+- [ ] 历史记录保存
+- [ ] 多语言支持
+- [ ] 社区分享功能
+
+## 贡献
+
+欢迎提 Issue 和 PR！
+
+## 作者
 
 **AI酋长Andy** | 前腾讯/百度 AI 产品专家
 
 - 🚀 大模型独角兽 VP → 创业 CEO
 - 🎯 AI 商业战略顾问
-- 📚 「AI + 副业」实战派
 
-**微信**：AIPMAndy ｜ **公众号**：AI酋长Andy
-
----
-
-**技术栈**：React + TypeScript + Vite + Netlify Functions
-
-**Created by AI酋长Andy** | 用 AI 放大你的赚钱能力
+**微信:** AIPMAndy | **GitHub:** [@AIPMAndy](https://github.com/AIPMAndy)
 
 ---
 
-## 📄 许可证
-
-本项目基于 Apache License 2.0，附加以下条款：
-
-**✅ 允许**
-- 个人学习研究：免费，随便用
-- 企业内部使用：免费，可二次开发
-- 开源项目引用：需保留作者信息
-
-**❌ 禁止（除非获得书面授权）**
-- 去品牌化：禁止移除 "AI酋长Andy" 相关标识
-- 商业 SaaS：禁止用源码提供付费多租户服务
-- 转售/倒卖：禁止打包出售或作为付费课程核心交付物
-
-**商业授权联系**：微信 AIPMAndy
-
----
-
-**Copyright © 2026 AI酋长Andy. All rights reserved.**
+<p align="center">
+  ⭐ If this helps, please give it a star! / 觉得有用请点个 Star！
+</p>
