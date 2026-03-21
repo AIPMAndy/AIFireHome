@@ -304,7 +304,7 @@ AIFireHome就是帮你找到它的工具。
 
 ## 12 许可证
 
-MIT License
+Apache 2.0 License
 
 ---
 
